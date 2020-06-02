@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="choose-level">
+            <h1>Quiz - Open Trivia Database</h1>
+            <h2>Game Difficulty</h2>
+            <div class="action-difficulty">
+                <button class="easy-button">Easy</button>
+                <button class="med-button">Medium</button>
+                <button class="hard-button">Hard</button>
+            </div>
+        </div>
+        <div id="choose-category">
+            <h2>Game Category</h2>
+            <div class="action-category">
+                <select class="select-category">
+                    <option value="0">Choose Category </option>
+                </select>
+                <button class="game-button">Game</button>
+            </div>
+        </div>
+        <div id="game">
+            <h2>Game Question</h2>
+            <div class="game-info">
+                <div class="score"></div>
+                <div class="timer"></div>
+                <div class="lifes">
+                    <img src="./life.png" id="life-2">
+                    <img src="./life.png" id="life-1">
+                    <img src="./life.png" id="life-0">
+                </div>
+            </div>
+            <h3 class="current-question"></h3>
+            <div class="action-game ag-multiple">
+                <button class="option-one answer-button alt-button"></button>
+                <button class="option-two answer-button alt-button"></button>
+                <button class="option-three answer-button alt-button"></button>
+                <button class="option-four answer-button alt-button"></button>
+            </div>
+            <div class="action-game ag-boolean">
+                <button class="option-true answer-button" value="True">True</button>
+                <button class="option-false answer-button" value="False">False</button>
+            </div>
+            <div class="inline-buttons">
+                <button class="skipped-button side-buttons">Skipped</button>
+                <button class="answerlater-button">Answer later</button>
+                <button class="next-button side-buttons">Next</button>
+            </div>
+            <button class="end-button">Your results</button>
+        </div>
+        <div id="end-game">
+            <h2>Your results</h2>
+            <h3 class="results"></h3>
+            <h3 class="results"></h3>
+            <h3 class="results"></h3>
+            <h3 class="results"></h3>
+            <button class="again-button">Play again</button>
+        </div>
+        <div id="message">
+            <button class="close-button"></button>
+            <p></p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
