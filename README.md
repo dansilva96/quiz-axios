@@ -2,15 +2,15 @@
 
 Quiz desenvolvido como atividade final para o curso de Desenvolvimento Web I.
 
-### Telas
+### Screenshots
 
 ![quiz_imgs](https://i.imgur.com/2AaMf8g.png)
 
-### Objetivo
+## Objetivo
 
 Consumo de API externa (Open Trivia Database) com Axios.
 
-### Executar o App
+## Executar o App
 
 No diretório do projeto utilizar `npm start`.
 
