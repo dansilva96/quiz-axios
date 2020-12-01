@@ -12,4 +12,4 @@ Consumo de API externa (Open Trivia Database) com Axios.
 
 No diretório do projeto utilizar `npm start`.
 
-Para acessar no browser http://localhost:3000.
+http://localhost:3000 para acessar no browser.
