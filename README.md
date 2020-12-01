@@ -2,7 +2,7 @@
 
 Quiz desenvolvido como atividade final para o curso de Desenvolvimento Web I.
 
-![](https://imgur.com/VnL2cCC)
+![img1](https://i.imgur.com/VnL2cCC.png)
 
 ## Objetivo
 
