@@ -8,6 +8,7 @@ Quiz desenvolvido como atividade final para o curso de Desenvolvimento Web I.
 
 Consumo de API externa (Open Trivia Database) com Axios.
 
-### Inicializar o App
+## Executar o App
 
-#### `npm start`
+No diretório do projeto utilizar #### `npm start`.
+http://localhost:3000 para acessar no browser.
