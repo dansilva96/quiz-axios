@@ -10,4 +10,4 @@ Consumo de API externa (Open Trivia Database) com Axios.
 
 ### Inicializar o App
 
-`<npm start>`
+#### `npm start`
