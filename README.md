@@ -1,2 +1,11 @@
+# quiz-axios
+
 Quiz desenvolvido como atividade final para o curso de Desenvolvimento Web I.
-Objetivo: consumo de API externa (Open Trivia Database) com Axios.
+
+![teste](https://imgur.com/VnL2cCC)
+
+## Objetivo
+
+Consumo de API externa (Open Trivia Database) com Axios.
+
+### 
